@@ -1,0 +1,28 @@
+{
+    "name": "pidgeey/holyframe",
+    "description": "The real true only api application",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Pidgeey",
+            "email": "javanet.florian@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3",
+        "ext-json": "*",
+        "ext-pdo": "*",
+        "slim/slim": "^4.4",
+        "slim/psr7": "^1.0",
+        "slim/php-view": "^2.2",
+        "pidgeey/holyapi": "1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^5.1"
+    }
+}
